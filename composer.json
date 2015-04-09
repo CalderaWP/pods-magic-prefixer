@@ -1,0 +1,25 @@
+{
+    "name": "calderawp/pods-magic-prexifer",
+    "description": "Magic Tag rendering system.",
+    "type": "library",
+    "keywords": [
+        "wordpress", "magic"
+    ],
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Josh Pollock",
+            "homepage": "http://joshpress.net",
+            "email": "Josh@JoshPress.net",
+            "role" : "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "calderawp\\pods_magic_prefix\\": "src"
+        }
+    }
+}
